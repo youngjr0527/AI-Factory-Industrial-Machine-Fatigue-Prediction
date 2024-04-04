@@ -1,18 +1,19 @@
 
-# AI SPACK 챌린지 - 공기압축기 이상 판단
+# AI SPACK 챌린지 - 공기압축기 이상 판단 :factory:
 
 <img src="https://github.com/youngjr0527/AI-Factory-Industrial-Machine-Fatigue-Prediction/assets/83463280/54281f6b-633b-4167-a5ab-2cf246ec2351" width="500" height="400">
 
-## 리더보드 결과
+:bookmark_tabs:[노션 사이트](https://www.notion.so/skipper0527/TAVE-36ca711c05284e41b4dc8b79d0c7f75d)<br>
+## 리더보드 결과 :white_check_mark:
 
 - Public F1-Score Score: **0.96057**
 - Private F1-Score Score: **0.95424**
 
 ## 프로젝트 개요
 
-제4회 연구개발특구 AI SPARK 챌린지는 산업기기 피로도를 예측하는 문제이다.
-산업용 공기압축기 및 회전기기에서 모터 및 심부 온도, 진동, 노이즈 등은 기기 피로도에 영향을 주는 요소이며, 피로도 증가는 장비가 고장에 이르는 원인이 된다.
-피로도 증가 시 데이터 학습을 통해 산업기기 이상 전조증상을 예측하여 기기 고장을 예방하고 그로 인한 사고를 예방하는 모델을 개발하는 것이 목표이다.
+- 제4회 연구개발특구 AI SPARK 챌린지는 산업기기 피로도를 예측하는 문제이다.
+- 산업용 공기압축기 및 회전기기에서 모터 및 심부 온도, 진동, 노이즈 등은 기기 피로도에 영향을 주는 요소이며, 피로도 증가는 장비가 고장에 이르는 원인이 된다.
+- 피로도 증가 시 데이터 학습을 통해 산업기기 이상 전조증상을 예측하여 기기 고장을 예방하고 그로 인한 사고를 예방하는 모델을 개발하는 것이 목표이다.
 
 ## 데이터 구성
 
@@ -31,11 +32,13 @@
   - 설비 번호 2: 10HP
   - 설비 번호 3: 50HP
     
-## 데이터 탐색 및 전처리
-
+## 데이터 EDA
+[Domain 파악]
 - 데이터 분포 확인
 - Feature 연관성 확인 
 - 시계열 데이터 패턴 확인
+  
+[데이터 전처리]
 - 데이터 범위 조절
 - Feature 범위 스케일링
 - Feature 제거/추가
@@ -68,9 +71,9 @@
 - Public Score: **0.7147570364**
 
 ### 3. Transformer-based 모델 조사
-<img src="https://github.com/youngjr0527/AI-Factory-Industrial-Machine-Fatigue-Prediction/assets/83463280/aedc823f-9352-46ee-9e79-bc9c245a2ea2" width="500" height="300">
+<img src="https://github.com/youngjr0527/AI-Factory-Industrial-Machine-Fatigue-Prediction/assets/83463280/aedc823f-9352-46ee-9e79-bc9c245a2ea2" width="700" height="300">
 
-### 4. Anomaly Transformer
+### 4. Anomaly Transformer 
 - 지역적 시계열 특징과 전반적 시계열 특징을 결합하여 정확한 이상치 탐지 제공
 - RNN 기반 방법론의 한계 개선
   
@@ -94,11 +97,11 @@
      - HP별로 train/test dataset 분리 및 추론
      - HP별 하이퍼파라미터 튜닝 세트 설정  
        - Anomaly ratio: 시각화를 통한 threshold 변경으로 이상/정상 분류
-     - Public Score: **0.9606**, Total Score: **0.9542**
+     - Public Score: **0.9606**, Total Score: **0.9542** :triangular_flag_on_post:
 
 
 
-[마력(HP) 20 추론 시각화 예시]
+### [마력(HP) 20 추론 시각화 예시]
 
 <img src="https://github.com/youngjr0527/AI-Factory-Industrial-Machine-Fatigue-Prediction/assets/83463280/688bce01-1a20-43d2-a90d-a8963c876125" width="400" height="300">
 
