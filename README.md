@@ -1,5 +1,5 @@
 
-# AI SPACK 챌린지 - 공기압축기 이상 판단 :factory:
+# AI SPACK 챌린지 - 공기압축기 이상 판단 
 
 <img src="https://github.com/youngjr0527/AI-Factory-Industrial-Machine-Fatigue-Prediction/assets/83463280/54281f6b-633b-4167-a5ab-2cf246ec2351" width="500" height="400">
 
@@ -9,7 +9,7 @@
 - Public F1-Score Score: **0.96057**
 - Private F1-Score Score: **0.95424**
 
-## 프로젝트 개요
+## 프로젝트 개요 :factory:
 
 - 제4회 연구개발특구 AI SPARK 챌린지는 산업기기 피로도를 예측하는 문제이다.
 - 산업용 공기압축기 및 회전기기에서 모터 및 심부 온도, 진동, 노이즈 등은 기기 피로도에 영향을 주는 요소이며, 피로도 증가는 장비가 고장에 이르는 원인이 된다.
