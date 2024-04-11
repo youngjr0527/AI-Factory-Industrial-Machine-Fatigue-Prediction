@@ -6,8 +6,8 @@
 :bookmark_tabs:[노션 사이트](https://www.notion.so/skipper0527/TAVE-36ca711c05284e41b4dc8b79d0c7f75d)<br>
 ## 리더보드 결과 :white_check_mark:
 
-- Public F1-Score Score: **0.96057**
-- Private F1-Score Score: **0.95424**
+- Public F1-Score : **0.96057**
+- Private F1-Score : **0.95424**
 
 ## 프로젝트 개요 :factory:
 
